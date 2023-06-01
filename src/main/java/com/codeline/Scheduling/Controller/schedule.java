@@ -12,6 +12,8 @@ public class schedule {
     @Scheduled(cron = "0 0/15 14-22 ? * 5,6")
     @Scheduled(cron = "0 0/10 8-15 ? * *")
     @Scheduled(cron = "0 0 23 * * *")
+    @Scheduled(cron = "0 0/30 * 15,L * ?")
+
 
 
     public void scheuldeTask(){
