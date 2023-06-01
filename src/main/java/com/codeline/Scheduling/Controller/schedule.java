@@ -17,6 +17,7 @@ public class schedule {
     @Scheduled(cron = "0 0/5 * 1-10 1 * ?")
     @Scheduled(cron = "0 30 16 ? 7,8 *")
     @Scheduled(cron = "0 0 0 1 1,4,7,10 ?")
+    @Scheduled(cron = "0 0 8 1-30 * ?")
 
 
 
